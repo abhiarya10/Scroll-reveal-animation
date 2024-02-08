@@ -10,6 +10,9 @@ function Card({ text, author, index, color }) {
         opacity: 0,
         x: index % 2 === 0 ? 400 : -400,
       }}
+      whileTap={{
+        scale: 0.8,
+      }}
       whileInView={{
         opacity: 1,
         x: 0,

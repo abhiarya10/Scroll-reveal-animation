@@ -8,6 +8,10 @@
     box-shadow: 0px 5px 10px rgb(28, 73, 97);
     
 }
+.motion-div:hover{
+    cursor: pointer;
+    
+}
 .item-text{
     padding: 10px 12px;
     border-radius: 10px;
